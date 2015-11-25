@@ -1,7 +1,7 @@
 # Seraphina_Fashsquare
 Code for Browser Extension "SizeChecker"
 
-This includes the following:
+This includes the following items:
 
 1. popup1.html
 2. popup2.html

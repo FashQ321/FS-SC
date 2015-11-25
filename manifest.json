@@ -1,0 +1,43 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+
+   "browser_action": {
+      "default_icon": "icons/19x19.png",
+      "default_title": "+TAG"
+   },
+   /*add any scripts here*/
+   "content_scripts": [ ],
+
+   /*edit this*/
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "When you discover something you want, SizeChecker will let you know if your size is in stock.",
+   
+
+   "externally_connectable": {
+      "matches": [ "*://*.sizechecker.com/*" ]
+   },
+
+   "homepage_url": "https://www.sizechecker.com",
+   
+   //replace with fashsquare icons
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon-16.png",
+      "19": "icons/19x19.png",
+      "48": "icons/icon-128.png"
+   },
+
+   //need this?
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyW5Q8zVoZkVZfuLf/nIeNh8KhIWOfZL58yT+5+5SXcY1lkGPgb04XKTn4rcO3QuwhDkExCLdnvzaeQMHFbe3LHE+IGADawYQUBuMCvwv6RJ2Z9tCXhN2IZYLM9R+yjsGndEOn0ITWw6fvcNle0uhH9jHkfsQUQJQhG9i8GypR1itZOvfBWpPaQZGmbiESqaSVW0ZxmmjNBpwhI4pYAPWoM/vfDQaw+sqCeXRCOQYUryLd9h8mTnk1zpFczGxkEXxYCHDijjqpTcaI5VoIQKFSNVQSXMoOsyhIzkaXPOBSvB44VJnSttAkdwri7Fsn/UWaqffbX0EfUjvEeFrE+DQAwIDAQAB",
+   "manifest_version": 2,
+   "name": "SizeChecker",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "",
+   //enter version here, i.e. 0.5
+   "version": "0.5",
+   //add to this if needed
+   "web_accessible_resources": [  ]
+}

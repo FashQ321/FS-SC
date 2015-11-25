@@ -1,3 +1,5 @@
+//Seraphina Anderson Oct/Nov 2015
+
 //# NOTES
 
 $(document).ready(function() {
